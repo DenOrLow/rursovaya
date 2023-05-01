@@ -1,14 +1,14 @@
 "use strickt";
 
 if (window.matchMedia('screen and (max-width: 1800px)').matches) {
-    document.getElementById('streaming1').textContent = "Yandex Music — музыкальный стриминговый сервис, разработанный Яндексом.";
-    document.getElementById('streaming2').textContent = "Apple Music — музыкальная служба, представленная компанией Apple.";
-    document.getElementById('streaming3').textContent = "Spotify — самый популярный стриминговый сервис с музыкой, аудиокнигами и подкастами.";
+    document.getElementById('streaming1').textContent = "Yandex Music is a music streaming service developed by Yandex.";
+    document.getElementById('streaming2').textContent = "Apple Music is a music service provided by Apple.";
+    document.getElementById('streaming3').textContent = "Spotify is the most popular streaming service with music, audiobooks, and podcasts.";
 }
 else{
-    document.getElementById('streaming1').textContent = "Yandex Music — российский музыкальный стриминговый сервис, разработанный Яндексом. Самая популярная функция Яндекс.Музыки — умные плейлисты.";
-    document.getElementById('streaming2').textContent = "Apple Music — музыкальная служба, представленная компанией Apple, предоставляющая доступ к миллионам композиций из библиотеки iTunes Store.";
-    document.getElementById('streaming3').textContent = "Spotify — самый популярный стриминговый сервис, позволяющий легально прослушивать музыкальные композиции, аудиокниги и подкасты.";
+    document.getElementById('streaming1').textContent = "Yandex Music is a Russian music streaming service developed by Yandex. The most popular feature of Yandex.Music is smart playlists.";
+    document.getElementById('streaming2').textContent = "Apple Music is a music service provided by Apple that provides access to millions of songs from the iTunes Store library.";
+    document.getElementById('streaming3').textContent = "Spotify is the most popular streaming service that allows you to legally listen to music tracks, audiobooks, and podcasts..";
 };
 
 function search_overlay_1(){
